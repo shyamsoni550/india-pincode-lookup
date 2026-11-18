@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "pincode";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-primary: oklch(52% 0.18 255);
+  --color-secondary: oklch(65% 0.17 185);
+  --color-accent: oklch(72% 0.16 75);
+  --color-neutral: oklch(27% 0.02 255);
+  --color-base-100: oklch(98% 0.005 255);
+}
+
+html { background: #f5f8ff; }
+body { min-width: 320px; margin: 0; }
